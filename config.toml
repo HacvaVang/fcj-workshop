@@ -1,4 +1,4 @@
-baseURL = "https://hacvavang.github.io/fcj-workshop/"
+baseURL = "https://hacvavang.github.io/"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
@@ -24,7 +24,7 @@ home = [ "HTML", "RSS", "JSON"]
   
 [Languages]
 [Languages.en]
-baseURL = "https://hacvavang.github.io/fcj-workshop/"
+baseURL = "https://hacvavang.github.io/"
 title = "Internship Report"
 weight = 1
 label = "English"
@@ -42,7 +42,7 @@ url = "https://www.facebook.com/groups/awsstudygroupfcj"
 weight = 20
 
 [Languages.vi]
-baseURL = "https://hacvavang.github.io/fcj-workshop/"
+baseURL = "https://hacvavang.github.io/"
 title = "Báo cáo thực tập"
 weight = 2
 label = "Tiếng Việt"
