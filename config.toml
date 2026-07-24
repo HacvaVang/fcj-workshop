@@ -1,4 +1,4 @@
-baseURL = "https://hacvavang.github.io"
+baseURL = "https://hacvavang.github.io/"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "vi"
@@ -23,6 +23,7 @@ home = [ "HTML", "RSS", "JSON"]
   
 [Languages]
 [Languages.en]
+baseURL = "https://hacvavang.github.io/"
 title = "Internship Report"
 weight = 1
 languageName = "English"
