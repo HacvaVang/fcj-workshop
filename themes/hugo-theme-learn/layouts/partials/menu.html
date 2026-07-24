@@ -2,8 +2,7 @@
   id="sidebar"
   class="{{if $.Site.Params.showVisitedLinks }}showVisitedLinks{{end}}"
 >
-  {{ $currentNode := . }} {{ $showvisitedlinks := .Site.Params.showVisitedLinks
-  }}
+  {{ $currentNode := . }} {{ $showvisitedlinks := .Site.Params.showVisitedLinks }}
   <div id="header-wrapper">
     <div id="header">{{ partial "logo.html" . }}</div>
     {{if not .Site.Params.disableSearch}} {{ partial "search.html" . }} {{end}}
@@ -35,12 +34,13 @@
         {{end}}
       </ul>
     </section>
-    {{end}} {{ if or hugo.IsMultilingual $showvisitedlinks }}
+    {{end}} 
+    
+    {{ if or (gt (len $.Sites) 1) $showvisitedlinks }}
     <section id="prefooter">
       <hr />
       <ul>
-        {{ if and hugo.IsMultilingual (not
-        .Site.Params.DisableLanguageSwitchingButton)}}
+        {{ if and (gt (len $.Sites) 1) (not .Site.Params.DisableLanguageSwitchingButton)}}
         <li>
           <a class="padding">
             <i class="fas fa-language fa-fw"></i>
@@ -81,7 +81,7 @@
               >
                 <g>
                   <g id="arrow-drop-down">
-                    <polygon points="0,63.75 127.5,191.25 255,63.75 		" />
+                    <polygon points="0,63.75 127.5,191.25 255,63.75     " />
                   </g>
                 </g>
               </svg>
@@ -102,7 +102,6 @@
   </div>
 </nav>
 
-<!-- templates -->
 {{ define "section-tree-nav" }} {{ $showvisitedlinks := .showvisitedlinks }} {{
 $currentNode := .currentnode }} {{ $currentFileUniqueID := "" }} {{ with
 $currentNode.File }}{{ $currentFileUniqueID = .UniqueID }}{{ end }} {{with

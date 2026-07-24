@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Event 1"
 date: 2024-01-01
 weight: 1
@@ -123,4 +123,4 @@ Attending the **“GenAI-powered App-DB Modernization”** workshop was extremel
 #### Some event photos
 *Add your event photos here*  
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration. -->
