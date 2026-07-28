@@ -9,9 +9,9 @@ pre: " <b> 1. </b> "
 
 **Tuần 1:** [Tìm hiểu chương trình FCAJ và làm quen với một số dịch vụ AWS.](1.1-week1/)
 
-**Tuần 2:** [Làm quen với AWS CloudFormation, xây dựng hạ tầng dưới dạng mã (IaC), tìm hiểu và làm quen máy chủ EC2 và một số dịch vụ liên quan.](1.2-week2/)
+**Tuần 2:** [Làm quen với AWS CloudFormation, xây dựng hạ tầng dưới dạng mã (IaC), Quản lý bảo mật IAM và AWS Lambda.](1.2-week2/)
 
-**Tuần 3:** [Làm công việc B...](1.3-week3/)
+**Tuần 3:** [Chốt đề tài và phân chia công việc từng thành viên, tìm hiểu về EC2 Auto Scaling, dịch vụ lưu trữ dữ liệu đám mây Amazon S3 và dịch vụ quản lý NoSQL DynamoDB](1.3-week3/)
 
 **Tuần 4:** [Làm công việc C...](1.4-week4/)
 

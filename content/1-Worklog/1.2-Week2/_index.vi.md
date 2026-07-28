@@ -1,56 +1,36 @@
 ---
-title: "Worklog Tuần 1"
-date: 2024-01-01
-weight: 1
+title: "Worklog Tuần 2"
+date: 2024-01-08
+weight: 2
 chapter: false
-pre: " <b> 1.1. </b> "
+pre: " <b> 1.2. </b> "
 ---
 
-### Mục tiêu tuần 1:
+### Mục tiêu tuần 2:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Tìm hiểu một số dịch vụ cơ bản trên AWS, học các Module mà chương trình cung cấp 
-* Bàn luận về đề tài chung của nhóm và vạch một số kế hoạch cần làm
-
+* Tìm hiểu về quản lý truy cập và bảo mật hệ thống thông qua AWS IAM.
+* Tìm hiểu Infrastructure as Code (IaC) và thực hành triển khai tài nguyên tự động.
+* Tìm hiểu cơ chế hoạt động của serverless với AWS Lambda và tích hợp cơ bản.
+* 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Ngày | Công việc | Nguồn tài liệu |
 | --- | ---- | --------- | -------------- |
-| 2 | 08/06/2026 | Tìm hiểu về dịch vụ AWS CloudFormation và hạ tầng dưới dạng mã (Infrasturate as Code)| <https://cloudjourney.awsstudygroup.com/><br><https://docs.aws.amazon.com/cloudformation/><br><https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_ec2.html> |
-| 3 | 09/06/2026 | Tìm hiểu về máy chủ ảo EC2, xây dựng kiến trúc hạ tầng cơ bản | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | 10/06/2026 | Thực tập tại công ty.<br>Tìm hiểu và thống nhất chung đề tài chính của nhóm.<br>Tìm hiểu về VPC, một số khái niệm cơ bản liên quan.<br>Tìm hiểu về bảo mật trong VPC và cách mà các VPC giao tiếp.<br>Tìm hiểu về VPN và cơ chế cân bằng tải Estatic.<br><strong>Thực hành:</strong><br>&emsp;+ Cách khởi tạo VPC, Subnetting, cấu hình bảng Router, cổng Internet Gateway.<br>&emsp;+ Tạo máy chủ ảo EC2 để kiểm thử kết nối. | <https://cloudjourney.awsstudygroup.com/><br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 5 | 11/06/2026 | Làm quen với cách thiết kế kiến trúc AWS trên draw.io.<br><strong>Thực hành:</strong><br>&emsp;+ Cách khởi tạo VPC, Subnetting, cấu hình bảng Router, cổng Internet Gateway.<br>&emsp;+ Tạo máy chủ ảo EC2 để kiểm thử kết nối. K<br>&emsp;+ Thiết kế được kiến trúc VPC Đa vùng khả dụng đơn giản. | <https://cloudjourney.awsstudygroup.com/><br><https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> |
-| 6 | 12/06/2026 | <strong>Thực hành:</strong><br>&emsp;+ Tạo EC2 instance.<br>&emsp;+ Kết nối SSH.<br>&emsp;+ Gắn EBS volume. | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | 15/06/2026 | **Tìm hiểu về AWS IAM & Bảo mật:**<br>&emsp;+ Khái niệm IAM User, Group, Role, và Policy.<br>&emsp;+ Phân loại các loại IAM Role (Service Role, Cross-Account Role,...).<br>&emsp;+ Áp dụng nguyên tắc quyền tối thiểu (Principle of Least Privilege). | <https://cloudjourney.awsstudygroup.com/><br><https://docs.aws.amazon.com/IAM/latest/UserGuide/> |
+| 3 | 16/06/2026 | **Thực tập tại công ty**<br>**Tìm hiểu Infrastructure as Code (IaC):**<br>&emsp;+ Tìm hiểu tổng quan về AWS CloudFormation và AWS CDK.<br>&emsp;+ **Thực hành:** Cấu trúc một template IaC đơn giản để khởi tạo tài nguyên cơ bản (VPC, Subnet, EC2 Instance). | <https://docs.aws.amazon.com/cloudformation/><br><https://docs.aws.amazon.com/cdk/v2/developerguide/> |
+| 4 | 17/06/2026 | **Nghiên cứu dịch vụ Serverless AWS Lambda:**<br>&emsp;+ Khái niệm, kiến trúc và cách thiết lập Lambda Function.<br>&emsp;+ Tìm hiểu về Event Sources, Triggers và Execution Role.<br>&emsp;+ **Thực hành:** Tạo Lambda Function đơn giản kết nối với IAM Role và kiểm thử bằng Function URL / API Gateway. | <https://cloudjourney.awsstudygroup.com/><br><https://docs.aws.amazon.com/lambda/> |
+| 5 | 18/06/2026 | **Tích hợp & Thực hành tổng hợp:**<br>&emsp;+ Kết hợp IAM Role + Lambda + CloudFormation để tự động hóa triển khai một luồng công việc nhỏ.<br>&emsp;+ Kiểm thử khả năng gán IAM Role cho máy chủ EC2 và Lambda Function. | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | 19/06/2026 | **Review & Tổng kết tuần:**<br>&emsp;+ Kiểm tra, tối ưu hóa các mẫu template CloudFormation đã viết.<br>&emsp;+ Gỡ lỗi (debug) các vấn đề liên quan đến phân quyền IAM Policy.<br>&emsp;+ Cập nhật tài liệu báo cáo Worklog Tuần 2. | <https://cloudjourney.awsstudygroup.com/> |
 
-### Kết quả đạt được tuần 1:
+### Kết quả đạt được tuần 2:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
+* **Quản trị Bảo mật & Phân quyền (IAM):**
+  * Hiểu rõ cơ chế hoạt động của IAM: User, Group, Role và Policy.
+  * Phân biệt rõ ràng các loại Role (đặc biệt là Service Role cho EC2/Lambda) và áp dụng nguyên tắc quyền tối thiểu (Least Privilege) để cấp quyền an toàn.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-* Thực hiện tất cả các nhiệm vụ trong AWS Free Tier, tìm hiểu làm quen các dịch vụ cơ bản như AWS EC2, AWS Bedrock, AWS Lamdba, AWS Aurora.
-* Làm quen cách quản lí ngân sách tài khoản AWS trên AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* **Hạ tầng dưới dạng mã (IaC):**
+  * Nắm được tự động hóa hạ tầng bằng IaC.
+  * Xây dựng thành công mẫu template CloudFormation / CDK đơn giản để tự động khởi tạo VPC, Subnet và EC2 instance mà không cần thao tác thủ công trên Console.
 
-* Thiết kế được kiến trúc VPC đơn giản.
-* 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* **Điện toán Serverless (AWS Lambda):**
+  * Nắm vững cách thức hoạt động, vòng đời (lifecycle) và cơ chế kích hoạt (Triggers/Event Sources) của AWS Lambda.
+  * Tạo và triển khai thành công một Lambda Function đơn giản, gán IAM Role phù hợp để giao tiếp với các dịch vụ AWS khác.

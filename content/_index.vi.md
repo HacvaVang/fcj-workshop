@@ -22,9 +22,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 01/06/2026 đến ngày 15/08/2026
 
-![Ảnh đại diện của bạn](images/leva.gif)
-
-
+![Your profile picture](images/leva.gif)
 
 ### Nội dung báo cáo
 
