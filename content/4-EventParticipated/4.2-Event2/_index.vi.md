@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Báo cáo tổng kết: “AWS Cloud Architecture Challenge”
+# Bài thu hoạch: “AWS Cloud Architecture Challenge”
 
 ### Mục tiêu sự kiện
 
@@ -18,14 +18,13 @@ pre: " <b> 4.2. </b> "
 ### Diễn giả
 
 - **Ban tổ chức** – Giới thiệu thể lệ và nội dung cuộc thi.
-- **Ban giám khảo** – Các Solution Architect và giảng viên chuyên môn.
-- **08 đội thi sinh viên** – Trình bày và bảo vệ phương án thiết kế kiến trúc AWS Cloud.
+- **08 đội thi sinh viên** – Tham gia trả lời câu hỏi kiến trúc AWS Cloud.
 
 ### Nội dung nổi bật
 
 #### Thể thức cuộc thi
 
-- **08 đội thi**, mỗi đội gồm **05 sinh viên**, tham gia theo hình thức **đấu loại trực tiếp (Single Elimination)**.
+- **08 đội thi**, mỗi đội gồm **05 sinh viên**, tham gia theo hình thức **đấu loại trực tiếp**.
 - Mỗi cặp đội nhận cùng một đề bài về thiết kế kiến trúc hệ thống trên AWS và có thời gian giới hạn để xây dựng giải pháp.
 - Sau thời gian chuẩn bị, các đội trình bày kiến trúc của mình trước ban giám khảo và trả lời các câu hỏi phản biện.
 - Đội có tổng điểm cao hơn sẽ giành quyền đi tiếp cho đến khi tìm ra đội vô địch.
