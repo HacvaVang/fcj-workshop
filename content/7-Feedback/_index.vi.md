@@ -39,6 +39,6 @@ Công ty tạo điều kiện rất linh hoạt về mặt thời gian, giúp th
   * Tổ chức thêm các buổi Check-in/Sync-up định kỳ 1:1 hoặc theo nhóm giữa Mentor và Thực tập sinh để kịp thời tháo gỡ khó khăn và định hướng lộ trình học tập.
   * Xây dựng danh mục các tài liệu/checklist định hướng (Onboarding guide) rõ ràng ngay từ tuần đầu tiên để TTS dễ dàng nắm bắt tổng quan lộ trình thực tập. 
 - Bạn có muốn tiếp tục chương trình này trong tương lai?
- * Kì sau em là sinh viên năm cuối, phải dành nhiều thời gian với đồ án tốt nghiệp nên không thể tiếp tục tham gia được.
+  * Kì sau em là sinh viên năm cuối, phải dành nhiều thời gian với đồ án tốt nghiệp nên không thể tiếp tục tham gia được.
 - Góp ý khác:
- * Không có góp ý
+  * Không có góp ý

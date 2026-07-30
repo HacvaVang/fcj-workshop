@@ -6,6 +6,18 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
+<!-- 
+> Trong phần này, các bạn cần liệt kê và mô tả chi tiết các sự kiện (event) mà mình đã tham gia trong suốt quá trình thực tập hoặc làm việc. 
+> 
+> Mỗi sự kiện nên được trình bày theo định dạng Event 1, Event 2, Event 3…, kèm theo các thông tin:
+> * Tên sự kiện
+> * Thời gian tổ chức
+> * Địa điểm (nếu có)
+> * Vai trò của bạn trong sự kiện (người tham dự, hỗ trợ tổ chức, diễn giả, v.v.)
+> * Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện
+> * Kết quả hoặc giá trị đạt được (bài học, kỹ năng mới, đóng góp cho nhóm/dự án)
+> * Việc liệt kê này giúp thể hiện rõ sự tham gia thực tế của bạn, cũng như các kỹ năng mềm và kinh nghiệm bạn đã tích lũy qua từng sự kiện. -->
+
 &emsp;Trong quá trình thực tập FCAJ, em đã tham gia được tổng cộng 3 event, mỗi event là một trải nghiệm hoàn toàn mới mà thật đáng nhớ. Qua mỗi sự kiện, em biết được thêm những góc nhìn mới khi tham gia xây dựng dự án, học hỏi và tiếp thu thêm nhiều kiến thức từ các bạn và các anh chị mentor trong cộng đồng từ lĩnh vực chuyên môn đến kĩ năng mềm. Từ đó, biết thêm được những yêu cầu mà các nhà tuyển dụng, nói rộng hơn là các doanh nghiệp, mong muốn trong tương lai sắp tới.    
 
 ### [Event 1](4.1-Event1/)
@@ -18,13 +30,16 @@ pre: " <b> 4. </b> "
 &emsp;**Vai trò trong sự kiện:** Người tham dự 
 
 &emsp;**Nội dung và hoạt động chính:**
-- Theo dõi cuộc thi đấu loại trực tiếp giữa 08 đội thi sinh viên thông qua hình thức tham gia Quiz trả lời các câu hỏi về kiến thức Cloud và Architecture.
-- Lắng nghe các đội thi trình bày kiến trúc tổng thể, giải thích việc lựa chọn dịch vụ AWS, luồng xử lý dữ liệu và phương án bảo mật, mở rộng, giám sát & tối ưu chi phí.
-- Tiếp thu các góc nhìn, đánh giá và nhận xét chuyên môn từ các Mentor (các Solution Architect và giảng viên) về nguyên tắc thiết kế Cloud: Business-first approach, ưu tiên Managed Services, giữ kiến trúc đơn giản hiệu quả.
+- Lắng nghe chia sẻ chuyên sâu về vai trò thực sự của Kỹ sư DevOps, làm rõ tư duy hệ thống, tự động hóa vận hành và phương pháp ứng dụng AI làm trợ thủ nâng cao hiệu suất công việc.
+- Theo dõi bài thuyết trình và demo Side Project thực tế: Xây dựng dịch vụ rút gọn URL có khả năng mở rộng (scalable) trên AWS, chia sẻ kinh nghiệm triển khai Serverless, IaC, CI/CD và phương pháp giải quyết các thách thức về độ trễ và chi phí.
+- Tiếp thu chia sẻ về kỹ năng phân tích dữ liệu thực chiến (Tư duy phản biện, Data Storytelling) cùng văn hóa làm việc tại tập đoàn đa quốc gia (MNCs) như văn hóa No-Blame Post-Mortem và chuẩn mực quản trị toàn cầu.
+- Tiếp cận lộ trình phát triển sự nghiệp Cloud AI, cơ hội đa dạng hóa các vai trò kỹ thuật (Solutions Architect, DevOps, Platform Engineer) và định hướng tham gia các cộng đồng công nghệ uy tín.
+- Tham gia thảo luận và giao lưu mạng lưới (Networking) với cộng đồng sinh viên và kỹ sư công nghệ tại TP.HCM.
 
 &emsp;**Kết quả hoặc giá trị đạt được:**
-- Hiểu rõ cách áp dụng AWS Well-Architected Framework vào thực tế, luôn xuất phát từ nhu cầu nghiệp vụ thay vì chọn công nghệ trước.
-- Củng cố kiến thức qua các câu hỏi Quiz và nắm vững các thực hành tốt nhất (Best Practices) về High Availability (Multi-AZ), Security (IAM, Least Privilege, mã hóa), Monitoring và Cost Optimization.
+- Định hình đúng đắn về vai trò của Kỹ sư DevOps và Data Analyst, nhận thức rõ giá trị của kiến thức nền tảng (Linux, Mạng, Lập trình) kết hợp với kỹ năng mềm (Data Storytelling, giao tiếp) trong môi trường MNCs.
+- Nắm vững phương pháp học qua thực hành (Learning by doing) và quy trình thiết kế, triển khai một sản phẩm Serverless thực tế trên AWS từ dự án demo rút gọn URL.
+- Học hỏi được tư duy phân tích nguyên nhân gốc rễ, phương pháp xây dựng thương hiệu cá nhân trên LinkedIn và mở rộng mạng lưới kết nối với các chuyên gia trong ngành công nghệ.
 
 ### [Event 2](4.2-Event2/)
 &emsp;**Tên sự kiện:** FCAJ Saturday Meeting
@@ -32,8 +47,16 @@ pre: " <b> 4. </b> "
 &emsp;**Thời gian:** 09:00 ngày 20/06/2026
 &emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
+&emsp;**Vai trò trong sự kiện:** Người tham dự
 
+&emsp;**Nội dung và hoạt động chính:**
+- Theo dõi cuộc thi đấu loại trực tiếp giữa 08 đội thi sinh viên thông qua hình thức tham gia Quiz trả lời các câu hỏi về kiến thức Cloud và Architecture.
+- Lắng nghe các đội thi trình bày kiến trúc tổng thể, giải thích việc lựa chọn dịch vụ AWS, luồng xử lý dữ liệu và phương án bảo mật, mở rộng, giám sát & tối ưu chi phí.
+- Tiếp thu các góc nhìn, đánh giá và nhận xét chuyên môn từ các Mentor (các Solution Architect và giảng viên) về nguyên tắc thiết kế Cloud: Business-first approach, ưu tiên Managed Services, giữ kiến trúc đơn giản hiệu quả.
+
+&emsp;**Kết quả hoặc giá trị đạt được:**
+- Hiểu rõ cách áp dụng AWS Well-Architected Framework vào thực tế, luôn xuất phát từ nhu cầu nghiệp vụ thay vì chọn công nghệ trước.
+- Củng cố kiến thức qua các câu hỏi Quiz và nắm vững các thực hành tốt nhất (Best Practices) về High Availability (Multi-AZ), Security (IAM, Least Privilege, mã hóa), Monitoring và Cost Optimization.
 
 ### [Event 3](4.3-Event3/)
 &emsp;**Tên sự kiện:** FCAJ x Agentic AI Build Week

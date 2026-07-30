@@ -15,6 +15,8 @@ pre: " <b> 4.2. </b> "
 - Rèn luyện kỹ năng phân tích yêu cầu, giải quyết vấn đề, làm việc nhóm và thuyết trình kỹ thuật.
 - Khuyến khích tinh thần học hỏi, sáng tạo và ứng dụng các dịch vụ AWS trong việc xây dựng các giải pháp Cloud.
 
+---
+
 ### Diễn giả
 
 - **Ban tổ chức** – Giới thiệu thể lệ và nội dung cuộc thi.
@@ -59,6 +61,9 @@ Ban giám khảo nhấn mạnh nhiều nguyên tắc quan trọng trong thiết 
 - Cần xem xét đồng thời các yếu tố bảo mật, hiệu năng, chi phí và khả năng mở rộng trong quá trình thiết kế.
 - Một kiến trúc đơn giản nhưng đáp ứng đầy đủ yêu cầu thường hiệu quả hơn những thiết kế quá phức tạp.
 
+---
+
+
 ### Bài học rút ra
 
 #### Tư duy thiết kế Cloud
@@ -80,6 +85,8 @@ Ban giám khảo nhấn mạnh nhiều nguyên tắc quan trọng trong thiết 
 - **Trao đổi và phản biện**: Thảo luận để lựa chọn giải pháp tối ưu trước khi trình bày.
 - **Kỹ năng thuyết trình**: Trình bày rõ ràng và bảo vệ các quyết định thiết kế trước ban giám khảo.
 
+---
+
 ### Áp dụng vào công việc
 
 - **Áp dụng AWS Well-Architected Framework** khi thiết kế các hệ thống Cloud trong tương lai.
@@ -87,6 +94,8 @@ Ban giám khảo nhấn mạnh nhiều nguyên tắc quan trọng trong thiết 
 - **Thiết kế hệ thống bảo mật và có khả năng mở rộng** ngay từ giai đoạn đầu.
 - **Kết hợp Monitoring và Cost Optimization** trong quá trình xây dựng kiến trúc hệ thống.
 - **Nâng cao kỹ năng làm việc nhóm và trình bày kỹ thuật** thông qua các dự án thực tế.
+
+---
 
 ### Trải nghiệm tham gia sự kiện
 
