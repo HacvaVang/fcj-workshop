@@ -14,7 +14,6 @@ pre: " <b> 1.3. </b> "
 * Thực hành tích hợp S3 và DynamoDB với các dịch vụ tính toán (EC2 / AWS Lambda).
 
 ### Các công việc cần triển khai trong tuần này:
-### Các công việc cần triển khai trong tuần này:
 | Thứ | Ngày | Công việc | Nguồn tài liệu |
 | --- | ---- | --------- | -------------- |
 | 2 | 22/06/2026 | **Họp nhóm - Chọn & Thống nhất đề tài:**<br>&emsp;+ Thảo luận các ý tưởng dự án, phân tích tính khả thi và thống nhất đề tài chính thức.<br>&emsp;+ Phác thảo sơ đồ kiến trúc hệ thống tổng thể trên draw.io. | <https://cloudjourney.awsstudygroup.com/> |
@@ -26,16 +25,21 @@ pre: " <b> 1.3. </b> "
 
 * **Đề tài nhóm:**
   * Thống nhất đề tài thực tập của nhóm.
-  * Phác thảo và hoàn thiện sơ đồ kiến trúc hệ thống tổng thể trên *draw.io* để chuẩn bị cho bước phân công nhiệm vụ ở tuần tiếp theo.
+  * Phác thảo và hoàn thiện sơ đồ kiến trúc hệ thống tổng thể trên *draw.io*, thể hiện luồng dữ liệu giữa các thành phần.
 
 * **Mở rộng Quy mô & Cân bằng tải (EC2 Scaling):**
   * Nắm vững nguyên lý hoạt động của Elastic Load Balancer (ALB) và Auto Scaling Group (ASG).
-  * Khởi tạo thành công Launch Template và triển khai hệ thống EC2 có khả năng tự động tăng/giảm số lượng instance theo tải thực tế.
+  * Khởi tạo Launch Template và triển khai hệ thống EC2 có khả năng tự động tăng/giảm số lượng instance theo tải.
+  * Thiết lập chính sách scaling để cân bằng hiệu năng và chi phí.
 
 * **Lưu trữ Đối tượng (Amazon S3):**
-  * Hiểu rõ cách tổ chức dữ liệu, cấu hình bảo mật (Bucket Policy) và quản lý vòng đời dữ liệu trên S3.
-  * Triển khai thành công S3 Bucket phục vụ lưu trữ tài nguyên tĩnh và phân quyền truy cập an toàn.
+  * Hiểu cách tổ chức dữ liệu, cấu hình bảo mật S3 Bucket Policy và Block Public Access.
+  * Triển khai thành công S3 Bucket để lưu trữ tài nguyên tĩnh và đảm bảo phân quyền truy cập an toàn.
 
 * **Cơ sở dữ liệu NoSQL (Amazon DynamoDB):**
-  * Hiểu tư duy thiết kế cơ sở dữ liệu NoSQL, cách chọn Partition Key và Sort Key tối ưu cho hiệu năng truy xuất.
-  * Thao tác thành công các lệnh CRUD trên DynamoDB và kết nối thành công ứng dụng (EC2/Lambda) tới DynamoDB & S3 thông qua AWS SDK.
+  * Thực hành thiết kế bảng DynamoDB với Partition Key, Sort Key và secondary index phù hợp.
+  * Thao tác CRUD thành công và kết nối ứng dụng EC2/Lambda với DynamoDB thông qua AWS SDK.
+
+* **Tích hợp ứng dụng:**
+  * Kết nối thành công các dịch vụ tính toán với S3 và DynamoDB.
+  * Kiểm thử luồng đọc/ghi dữ liệu từ backend tới cơ sở dữ liệu và lưu trữ.

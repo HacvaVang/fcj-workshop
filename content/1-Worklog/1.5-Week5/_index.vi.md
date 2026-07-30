@@ -26,7 +26,9 @@ pre: " <b> 1.5. </b> "
 * **Tự động hóa Hạ tầng (AWS CloudFormation):**
   * Số hóa toàn bộ hạ tầng dự án thành mã nguồn (Code) dạng YAML/JSON theo đúng chuẩn IaC.
   * Viết thành công bộ CloudFormation template hoàn chỉnh bao gồm VPC, Subnet, ALB, ASG, EC2, S3, DynamoDB và KMS.
+  * Cấu trúc template hợp lý, dễ tái sử dụng và mở rộng cho các giai đoạn tiếp theo.
 
 * **Quản lý Triển khai (Stack Management):**
   * Triển khai thành công toàn bộ hệ thống chỉ qua một thao tác khởi tạo CloudFormation Stack.
-  * Thành thạo kỹ năng debug lỗi triển khai Stack, biết cách sử dụng Change Sets để cập nhật hạ tầng mà không làm gián đoạn dịch vụ.
+  * Thực hành debug lỗi triển khai Stack, xử lý rollback và dependency errors.
+  * Sử dụng Change Sets để cập nhật hạ tầng an toàn, giảm thiểu gián đoạn dịch vụ.

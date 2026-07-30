@@ -1,25 +1,30 @@
 ---
 title: "Event 3"
 date: 2024-01-01
-weight: 1
+weight: 3
 chapter: false
 pre: " <b> 4.3. </b> "
 ---
-# Bài thu hoạch “FCAJ x Agentic AI Build Week”
+
+# Bài thu hoạch "FCAJ x Agentic AI Build Week"
 
 ### Mục Đích Của Sự Kiện
 - Chia sẻ best practices trong thiết kế ứng dụng hiện đại và tích hợp Agentic AI vào quy trình vận hành.
 - Chia sẻ văn hóa công ty, tư duy đổi mới sáng tạo và trải nghiệm thực tế từ các doanh nghiệp/chuyên gia lớn (như AWS).
 - Tạo sân chơi thực hành kỹ thuật, thúc đẩy đổi mới sáng tạo và giải quyết các bài toán thực tế của doanh nghiệp bằng công nghệ AI.
 
+---
+
 ### Danh Sách Diễn Giả
 - **Mr. Nguyễn Gia Hưng**: Head of Solution Architect, AWS Vietnam.
 - **Mr. Joseph Marazota**: Head of Technology, AWS ASEAN.
-- **One Team**: Đội thắng cuộc AABW Hackathon (Giải Nhất) - Giải pháp AI-Powered Conversational Food Ordering Agent for KFC.
-- **Signal Scout**: Đội Á quân AABW Hackathon (Giải Nhì) - Giải pháp AI-Powered Business Strategy Analytics Tool.
-- **Plan V**: Đội tham gia cuộc thi AABW Hackathon (Giải Ba) - Giải pháp Real-Time AI Camera System for Crowd Congestion Management (S.H.E.P.H.R.D).
-- **3KA**: Đội tham gia cuộc thi AABW Hackathon (Giải Tư) - Giải pháp AI-Driven Cloud Architecture Design Assistant.
-- **Six Pillar Team**: Đội tham gia cuộc thi AABW Hackathon (Giải Năm) - Giải pháp Adaptive AML Workflow Engine cho lĩnh vực tài chính.
+- **One Team**: Đội thắng cuộc AABW Hackathon.
+- **Signal Scout**: Đội Á quân AABW Hackathon.
+- **Plan V**: Đội tham gia cuộc thi AABW Hackathon.
+- **3KA**: Đội tham gia cuộc thi AABW Hackathon.
+- **Six Pillar Team**: Đội tham gia cuộc thi AABW Hackathon.
+
+---
 
 ### Nội Dung Nổi Bật
 
@@ -46,14 +51,16 @@ pre: " <b> 4.3. </b> "
 - **Chức năng**: Tính toán thời gian chờ, gợi ý biện pháp điều tiết, phát cảnh báo tự động và hỗ trợ người vận hành can thiệp (Operator Cockpit).
 
 #### Adaptive AML Workflow Engine
-- **Bài toán**: Lĩnh vực tài chính gặp lượng lớn cảnh báo giao dịch đáng ngờ nhưng có tới 90-95% là dương tính giả (false positives). Quy trình thủ công tốn thời gian và chi phí ($20-$25/ca).
+- **Bài toán**: Lĩnh vực tài chính gặp lượng lớn cảnh báo giao dịch đáng ngờ nhưng có tới 90-95% là dương tính giả (false positives). Quy trình thủ công tốn thời gian và chi phí.
 - **Giải pháp**: Động cơ AI tối ưu hóa quy trình điều tra cảnh báo chống rửa tiền (AML), tự động thu thập và tổng hợp dữ liệu từ nhiều nguồn (lich sử giao dịch, KYC, screening).
 - **Hiệu quả**: Giảm thời gian xử lý từ vài ngày/giờ xuống còn vài phút, cung cấp nhật ký bằng chứng có thể truy xuất nguồn gốc (auditability & explainability) mà không thay đổi vai trò quyết định của con người.
 
-#### Hackathon Experience
-- **Làm việc dưới áp lực thời gian**: Thử thách kéo dài xuyên đêm (đến 3-4 giờ sáng), yêu cầu tinh thần giải quyết vấn đề nhanh chóng.
+#### Trải nghiệm khi tham gia Hackathon
+- **Làm việc dưới áp lực thời gian**: Thử thách kéo dài đến 3-4 giờ sáng, yêu cầu tinh thần giải quyết vấn đề nhanh chóng.
 - **Xây dựng MVP & Demo**: Nhấn mạnh việc tập trung vào bài toán cốt lõi, phạm vi thực tế (scope control) và chuẩn bị demo chạy trực tiếp thay vì chỉ trình bày lý thuyết.
 - **Quản lý xung đột & Giao tiếp**: Đội ngũ đa dạng ngôn ngữ, kỹ năng cần lắng nghe, phân công vai trò rõ ràng và thống nhất mục tiêu chung để vượt qua bất đồng.
+
+---
 
 ### Những Gì Học Được
 - **Tư duy thiết kế sản phẩm AI**: Cần tập trung 70%+ vào việc giải quyết bài toán kinh doanh thực tế (business use case) hơn là chỉ phô diễn công nghệ thuần túy.
@@ -61,10 +68,14 @@ pre: " <b> 4.3. </b> "
 - **Tối ưu hóa chi phí & Hiệu năng**: Kỹ thuật thiết kế hệ thống giúp giảm tới 60% chi phí vận hành AI, tận dụng kiến trúc serverless (Lambda, Fargate).
 - **Kỹ năng mềm**: Bài học về làm việc nhóm dưới áp lực cao, quản lý scope dự án, và kỹ năng thuyết trình/trả lời Q&A trước ban giám khảo.
 
+---
+
 ### Ứng Dụng Vào Công Việc
 - **Tự động hóa quy trình nghiệp vụ**: Áp dụng mô hình AI Agent vào việc tự động tổng hợp dữ liệu, trích xuất thông tin tài liệu và tạo báo cáo tự động.
 - **Tối ưu hóa thiết kế hệ thống**: Sử dụng các nguyên tắc kiến trúc Cloud/AI từ AWS để xây dựng giải pháp có khả năng mở rộng tốt và tiết kiệm chi phí.
 - **Cải thiện trải nghiệm khách hàng**: Nghiên cứu tích hợp AI hội thoại có bộ nhớ (session memory) vào các kênh tương tác trực tiếp với người dùng mà không bắt họ chuyển đổi ứng dụng.
+
+---
 
 ### Trải nghiệm trong event
 

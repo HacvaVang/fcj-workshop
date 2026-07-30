@@ -30,18 +30,13 @@ pre: " <b> 4. </b> "
 &emsp;**Vai trò trong sự kiện:** Người tham dự 
 
 &emsp;**Nội dung và hoạt động chính:**
-- Lắng nghe bài phát biểu và chia sẻ định hướng ngành từ ông Joseph Marazota (Head of Technology, AWS ASEAN) về sự chuyển dịch sang chu kỳ phát triển ứng dụng liên tục và tầm quan trọng của AI tương tác có sự can thiệp của con người (Human-in-the-loop).
-- Theo dõi bài thuyết trình và demo sản phẩm thực tế từ các đội thi đạt giải tại AABW Hackathon:
-- One Team (Giải Nhất): Agent AI hội thoại đa kênh (Zalo/WhatsApp) hỗ trợ đặt đồ ăn KFC, tối ưu hóa bộ nhớ phiên tương tác và cắt giảm 60% chi phí hạ tầng.  
-- Signal Scout (Giải Nhì): Công cụ Multi-Agent phân tích chiến lược kinh doanh và báo cáo tài chính của đối thủ cạnh tranh.  
-- Plan V (Giải Ba): Hệ thống camera AI thời gian thực (mô hình YOLO v2.6) phát hiện và dự báo ùn tắc đám đông tại các khu vực mật độ cao.  
-- 3KA: Trợ lý AI native hỗ trợ Cloud Solution Architect tự động hóa thiết kế kiến trúc, tính toán chi phí và sinh mã IaC (Terraform/CloudFormation).  
-- Six Pillar Team: Động cơ AI tối ưu hóa quy trình điều tra chống rửa tiền (AML), giảm tỷ lệ dương tính giả và rút ngắn thời gian xử lý hồ sơ từ vài ngày xuống còn vài phút.  Tham gia thảo luận về các bài học thực tế trong việc quản lý dự án hackathon: xác định rõ bài toán cốt lõi, xây dựng MVP khả thi, quản lý xung đột đội nhóm và làm việc dưới áp lực thời gian.  
+- Theo dõi cuộc thi đấu loại trực tiếp giữa 08 đội thi sinh viên thông qua hình thức tham gia Quiz trả lời các câu hỏi về kiến thức Cloud và Architecture.
+- Lắng nghe các đội thi trình bày kiến trúc tổng thể, giải thích việc lựa chọn dịch vụ AWS, luồng xử lý dữ liệu và phương án bảo mật, mở rộng, giám sát & tối ưu chi phí.
+- Tiếp thu các góc nhìn, đánh giá và nhận xét chuyên môn từ các Mentor (các Solution Architect và giảng viên) về nguyên tắc thiết kế Cloud: Business-first approach, ưu tiên Managed Services, giữ kiến trúc đơn giản hiệu quả.
 
 &emsp;**Kết quả hoặc giá trị đạt được:**
-- Nắm bắt được các tư duy thiết kế ứng dụng AI hiện đại (Multi-Agent system, Human-in-the-loop, AI-native architectures) và cách áp dụng các dịch vụ AWS để xây dựng ứng dụng sản xuất.
-- Hiểu rõ rằng sự thành công của một sản phẩm AI phụ thuộc hơn 70% vào việc giải quyết đúng bài toán kinh doanh thực tế chứ không chỉ dừng lại ở sự phức tạp về mặt công nghệ.
-- Học hỏi được kỹ năng làm việc nhóm dưới áp lực lớn, tư duy tinh gọn (MVP) và mở rộng mạng lưới kết nối (networking) với các chuyên gia hàng đầu từ AWS cùng cộng đồng công nghệ AI tại TP.HCM.
+- Hiểu rõ cách áp dụng AWS Well-Architected Framework vào thực tế, luôn xuất phát từ nhu cầu nghiệp vụ thay vì chọn công nghệ trước.
+- Củng cố kiến thức qua các câu hỏi Quiz và nắm vững các thực hành tốt nhất (Best Practices) về High Availability (Multi-AZ), Security (IAM, Least Privilege, mã hóa), Monitoring và Cost Optimization.
 
 ### [Event 2](4.2-Event2/)
 &emsp;**Tên sự kiện:** FCAJ Saturday Meeting

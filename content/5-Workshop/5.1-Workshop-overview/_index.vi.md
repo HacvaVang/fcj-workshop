@@ -6,10 +6,18 @@ chapter : false
 pre : " <b> 5.1. </b> "
 ---
 
-#### Giới thiệu về VPC Endpoint
+#### Giới thiệu về AWS Lamdba
 
-+ Điểm cuối VPC (endpoint) là thiết bị ảo. Chúng là các thành phần VPC có thể mở rộng theo chiều ngang, dự phòng và có tính sẵn sàng cao. Chúng cho phép giao tiếp giữa tài nguyên điện toán của bạn và dịch vụ AWS mà không gây ra rủi ro về tính sẵn sàng.
-+ Tài nguyên điện toán đang chạy trong VPC có thể truy cập Amazon S3 bằng cách sử dụng điểm cuối Gateway. Interface Endpoint  PrivateLink có thể được sử dụng bởi tài nguyên chạy trong VPC hoặc tại TTDL.
+#### Giới thiệu về AWS Gateway API
+
+#### Giới thiệu về AWS DynamoDB
+
+#### Giới thiệu về AWS S3
+
+#### Giới thiệu về AWS CloudFormation
+
+#### Giới thiệu về AWS CDK
+
 
 #### Tổng quan về workshop
 Trong workshop này, bạn sẽ sử dụng hai VPC.

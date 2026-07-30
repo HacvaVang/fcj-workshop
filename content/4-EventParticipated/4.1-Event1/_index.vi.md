@@ -1,3 +1,12 @@
+---
+title: "Event 1"
+date: 2024-01-01
+weight: 1
+chapter: false
+pre: " <b> 4.1. </b> "
+---
+
+
 ### Mục Đích Của Sự Kiện
 - Làm rõ vai trò thực sự của kỹ sư DevOps, định hướng hành trình trở thành DevOps Engineer, trang bị các kiến thức thiết yếu và phương pháp học tập/phát triển sự nghiệp trong ngành DevOps hiện đại.
 - Trang bị tư duy phản biện, kỹ năng giải quyết vấn đề, kể chuyện bằng dữ liệu và cách thích nghi với quy trình tuyển dụng chuẩn mực tại các Tập đoàn Đa quốc gia (MNC).
@@ -15,7 +24,7 @@
 
 ### Nội Dung Nổi Bật 
 
-#### Xây dựng dịch vụ rút gọn URL có thể scale được với dịch vụ AWS
+#### Xây dựng dịch vụ rút gọn URL có thể mở rộng được với dịch vụ AWS
 - Trình bày chi tiết cách thiết kế hệ thống Serverless có khả năng chịu tải tốt và tự động mở rộng; chọn lựa kết hợp các dịch vụ AWS phù hợp (như Amazon API Gateway, AWS Lambda, Amazon DynamoDB, CloudFront, S3...).
 - Chia sẻ trải nghiệm thực hành từng bước từ khâu lên ý tưởng, xây dựng hạ tầng (IaC/Serverless), thiết lập luồng CI/CD đến quản lý vận hành.
 - Nêu rõ các thách thức kỹ thuật gặp phải trong quá trình làm project (như tối ưu chi phí, sửa lỗi hệ thống) và cách xử lý thực tế.

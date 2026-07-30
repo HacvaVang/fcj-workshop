@@ -25,12 +25,15 @@ pre: " <b> 1.2. </b> "
 
 * **Quản trị Bảo mật & Phân quyền (IAM):**
   * Hiểu rõ cơ chế hoạt động của IAM: User, Group, Role và Policy.
-  * Phân biệt rõ ràng các loại Role (đặc biệt là Service Role cho EC2/Lambda) và áp dụng nguyên tắc quyền tối thiểu (Least Privilege) để cấp quyền an toàn.
+  * Phân biệt các loại Role (đặc biệt là Service Role cho EC2 và Lambda) và áp dụng nguyên tắc quyền tối thiểu (Least Privilege).
+  * Triển khai và kiểm thử IAM Role để đảm bảo phân quyền dịch vụ an toàn.
 
 * **Hạ tầng dưới dạng mã (IaC):**
-  * Nắm được tự động hóa hạ tầng bằng IaC.
-  * Xây dựng thành công mẫu template CloudFormation / CDK đơn giản để tự động khởi tạo VPC, Subnet và EC2 instance mà không cần thao tác thủ công trên Console.
+  * Nắm được tự động hóa hạ tầng bằng IaC và cấu trúc template rõ ràng.
+  * Xây dựng thành công mẫu CloudFormation/CDK đơn giản để tự động khởi tạo VPC, Subnet và EC2 mà không cần thao tác thủ công trên Console.
+  * Kiểm thử template và quản lý tài nguyên qua mã nguồn, giúp tăng tính nhất quán khi triển khai.
 
 * **Điện toán Serverless (AWS Lambda):**
-  * Nắm vững cách thức hoạt động, vòng đời (lifecycle) và cơ chế kích hoạt (Triggers/Event Sources) của AWS Lambda.
+  * Nắm vững cách thức hoạt động, vòng đời và cơ chế kích hoạt (Triggers/Event Sources) của AWS Lambda.
   * Tạo và triển khai thành công một Lambda Function đơn giản, gán IAM Role phù hợp để giao tiếp với các dịch vụ AWS khác.
+  * Kiểm thử chức năng bằng Lambda Function URL và đánh giá khả năng tích hợp với IAM policy.

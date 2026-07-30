@@ -24,10 +24,10 @@ pre: " <b> 1.4. </b> "
 ### Kết quả đạt được tuần 4:
 
 * **Thiết kế & Phân công công việc:**
-  * Hoàn thiện sơ đồ kiến trúc hệ thống chuẩn trên draw.io, thể hiện rõ tương tác giữa EC2, S3, DynamoDB và các lớp bảo mật.
-  * Phân công công việc chi tiết cho từng thành viên, thiết lập xong môi trường làm việc chung (Git, AWS IAM Roles/Users).
+  * Hoàn thiện sơ đồ kiến trúc hệ thống trên draw.io, thể hiện rõ tương tác giữa EC2, S3, DynamoDB và các lớp bảo mật.
+  * Phân công công việc chi tiết cho từng thành viên và thiết lập môi trường làm việc chung (Git, AWS IAM Roles/Users).
 
 * **Quản lý Khóa Mã hóa (AWS KMS):**
-  * Nắm vững khái niệm về mã hóa dữ liệu trên Cloud và cách quản lý vòng đời của khóa mã hóa.
-  * Khởi tạo thành công Customer Managed Key (CMK) và thiết lập Key Policy an toàn.
-  * Áp dụng mã hóa KMS cho S3 Bucket, EBS Volume và DynamoDB Table, đảm bảo an toàn dữ liệu ở trạng thái lưu trữ (At-Rest).
+  * Nắm vững khái niệm về mã hóa dữ liệu trên Cloud, Customer Managed Key và Key Policy.
+  * Khởi tạo Customer Managed Key (CMK) và thiết lập chính sách truy cập khóa an toàn.
+  * Áp dụng mã hóa KMS cho S3 Bucket, EBS Volume và DynamoDB Table, đảm bảo dữ liệu ở trạng thái lưu trữ (At-Rest) được bảo vệ.
