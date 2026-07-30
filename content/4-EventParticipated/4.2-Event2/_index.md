@@ -1,125 +1,135 @@
 ---
 title: "Event 2"
-date: 2024-01-01
+date: 2025-06-20
 weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Summary Report: "AWS Cloud Architecture Challenge"
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+### Event Purpose
 
-### Mục Đích Của Sự Kiện
+- Provide an opportunity for students to apply AWS Cloud knowledge by designing system architectures for real-world problems.
+- Help students gain a deeper understanding of the **AWS Well-Architected Framework** and cloud system design principles.
+- Practice requirements analysis, problem-solving, teamwork, and technical presentation skills.
+- Encourage a learning spirit, creativity, and the application of AWS services in building Cloud solutions.
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+---
 
-### Danh Sách Diễn Giả
+### Speakers
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- **Organizers** – Introduced competition rules and guidelines.
+- **08 Student Teams** – Participated in answering AWS Cloud architecture questions.
 
-### Nội Dung Nổi Bật
+### Highlighted Content
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### Competition Format
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+- **08 teams**, each consisting of **05 students**, competing in a **knockout format**.
+- Each team pair received the same system architecture design problem on AWS and had limited time to build a solution.
+- After preparation time, teams presented their architectures to judges and answered defense questions.
+- The team with higher total points advanced until the champion was determined.
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+#### AWS Architecture Design
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+Teams focused on building solutions meeting key criteria:
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+- **Scalability** to handle growing user bases.
+- **High Availability** by deploying across multiple Availability Zones.
+- **Security** via IAM, Security Groups, data encryption, and appropriate authorization.
+- **Cost Optimization** by selecting suitable AWS services.
+- **Monitoring** and ensuring system stability.
 
-#### Domain-Driven Design (DDD)
+#### Team Presentations
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+Each team sequentially presented:
 
-#### Event-Driven Architecture
+- Analysis of requirements and business problem.
+- Overall system architecture on AWS.
+- Rationale for AWS service selection in the solution.
+- Data processing flow and component interaction within the system.
+- Security, monitoring, and scaling solutions.
+- Evaluation of cost and real-world implementation feasibility.
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+#### Judges' Feedback
 
-#### Compute Evolution
+Judges emphasized several crucial Cloud design principles:
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+- Architecture must stem from business requirements rather than selecting technology first.
+- Prioritize Managed Services to reduce operational overhead and increase stability.
+- Simultaneously consider security, performance, cost, and scalability during design.
+- A simple architecture meeting all requirements is often more effective than overly complex designs.
 
-#### Amazon Q Developer
+---
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+### Key Lessons Learned
 
-### Những Gì Học Được
+#### Cloud Design Thinking
 
-#### Tư Duy Thiết Kế
+- **Business-first approach**: Always start from customer needs and business problems.
+- **Well-Architected Framework**: Balance security, performance, reliability, cost optimization, and operations.
+- **Scalable Design**: Build systems capable of accommodating future growth.
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+#### AWS Knowledge
 
-#### Kiến Trúc Kỹ Thuật
+- **High Availability**: Deploy resources across multiple Availability Zones to increase fault tolerance.
+- **Security Best Practices**: Apply Least Privilege principle and protect data using appropriate security mechanisms.
+- **Monitoring & Logging**: Track systems using monitoring services for timely incident detection and response.
+- **Cost Optimization**: Select appropriate services and deployment models to optimize costs.
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+#### Teamwork Skills
 
-#### Chiến Lược Hiện Đại Hóa
+- **Task Allocation**: Each member assumes a role matching their strengths.
+- **Discussion & Defense**: Debate to choose optimal solutions before presenting.
+- **Presentation Skills**: Present clearly and defend architectural decisions before judges.
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+---
 
-### Ứng Dụng Vào Công Việc
+### Application to Work
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+- **Apply AWS Well-Architected Framework** when designing future Cloud systems.
+- **Analyze business requirements** before choosing appropriate AWS services.
+- **Design secure and scalable systems** right from the initial phase.
+- **Combine Monitoring and Cost Optimization** during system architecture construction.
+- **Enhance teamwork and technical presentation skills** through real-world projects.
 
-### Trải nghiệm trong event
+---
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+### Event Experience
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+Participating in the **AWS Cloud Architecture Challenge** was a very exciting and rewarding experience. The competition brought together eight student teams with diverse design ideas, creating a vibrant and highly competitive learning environment. Although receiving the same problem statement, each team provided unique approaches and solutions, allowing attendees to observe many different Cloud design directions.
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+#### Learning from Architectural Options
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+- Each team chose different AWS services and system designs to fulfill the same set of requirements.
+- Comparing solutions helped me better understand advantages and limitations of various design approaches.
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+#### Experiencing Real-World Design Workflows
 
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+- Observed how teams analyzed requirements, built architectures, and explained technical decisions.
+- Gained a clearer understanding of scalability, availability, security, and cost optimization in a Cloud system.
+- Learned to present architecture diagrams visually and comprehensibly.
 
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+#### Learning from Judges' Comments
+
+- Judges highlighted strengths and areas for improvement in each design option.
+- Feedback on AWS service selection, architectural optimization, and balancing performance vs. cost provided rich practical knowledge.
+
+#### Experiencing Competitive Spirit
+
+- The atmosphere was lively as teams presented and defended their solutions.
+- Q&A sessions between judges and teams helped attendees understand a Solution Architect's mindset when solving real-world challenges.
+- The competition also showed that communication and teamwork skills are just as vital as technical knowledge.
+
+#### Summary Lessons
+
+- A good Cloud architecture must stem from business requirements rather than focusing solely on technology.
+- No single architecture is universally correct; every solution requires trade-offs between performance, security, scalability, and cost.
+- Analysis, critical thinking, and teamwork skills are crucial factors in designing AWS solutions.
+
+#### Photos at the event
+
+![Event picture 2](/fcj-workshop/images/4-Events/event-2.jpg)
+
+> Overall, the AWS Cloud Architecture Challenge was not only a Cloud knowledge competition but also an opportunity for students to learn, share experiences, and hone system architecture design skills on AWS. The event helped me better understand the end-to-end Cloud solution building process while motivating me to continue learning and pursuing a Solution Architecture career path.

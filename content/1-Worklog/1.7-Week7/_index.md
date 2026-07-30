@@ -1,54 +1,37 @@
 ---
-title: "Week 1 Worklog"
-date: 2024-01-01
-weight: 1
+title: "Worklog Week 7"
+date: 2024-02-12
+weight: 7
 chapter: false
-pre: " <b> 1.1. </b> "
+pre: " <b> 1.7. </b> "
 ---
 
+### Goals for Week 7:
 
-### Week 1 Objectives:
+* Conduct integrated testing of the entire application and infrastructure for the team project.
+* Draft and complete hands-on lab documentation (Workshop Documentation).
+* Learn theory and practice standalone AWS WAF (Web Application Firewall) configuration.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+### Tasks to implement this week:
+| Day | Date | Tasks | Reference Materials |
+| --- | ---- | ----- | ------------------- |
+| Mon | 20/07/2026 | **Project Integration Testing:**<br>&emsp;+ Test end-to-end flow between Frontend, Backend, DynamoDB, and S3.<br>&emsp;+ Review and debug project API / Database connections. |  |
+| Tue | 21/07/2026 | **Learn AWS WAF Theory:**<br>&emsp;+ Concepts of Web ACL, Rules, Rule Groups.<br>&emsp;+ Common web attack mitigation mechanisms: SQL Injection (SQLi), Cross-Site Scripting (XSS), Rate-based (DDoS). | <https://docs.aws.amazon.com/waf/latest/developerguide/> |
+| Wed | 22/07/2026 | **Hands-on AWS WAF:**<br>&emsp;+ Create test Web ACL and add AWS Managed Rule Groups.<br>&emsp;+ **Hands-on practice:** Create separate test environment to attach Web ACL and test traffic blocking/allowing capability. | <https://docs.aws.amazon.com/waf/latest/developerguide/> |
+| Thu | 23/07/2026 | **Build Workshop Documentation:**<br>&emsp;+ Draft step-by-step lab guide for project practical workshop.<br>&emsp;+ Take screenshots and annotate key technical notes. |  |
+| Fri | 24/07/2026 | Check Workshop documentation completion progress and summarize Week 7 report. |  |
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| -- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Results achieved in Week 7:
 
+* **System Integration Testing:**
+  * Executed end-to-end flow tests across Frontend, Backend, DynamoDB, and S3.
+  * Reviewed and debugged API connections, authentication mechanisms, and data pipelines.
 
-### Week 1 Achievements:
+* **Learn & Practice AWS WAF:**
+  * Thoroughly understood Web ACL, Rule Groups, and AWS WAF Layer 7 traffic filtering mechanisms.
+  * Practiced creating Web ACLs and adding AWS Managed Rule Groups targeting SQLi, XSS, and rate-limiting.
+  * Tested request blocking/allowing functionality and evaluated application protection efficacy.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Build Workshop Documentation:**
+  * Drafted comprehensive, step-by-step practical guides complete with annotated diagrams and technical notes.
+  * Finalized Workshop document draft enabling external users to reproduce the project from scratch.

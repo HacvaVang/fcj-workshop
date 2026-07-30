@@ -1,39 +1,48 @@
 ---
-title: "Self-Assessment"
+title: "Self-evaluation"
 date: 2024-01-01
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+Throughout my internship at Amazon Web Services Viet Nam Company Limited from June 1, 2026 to August 15, 2026, I had the opportunity to learn, practice, and apply knowledge acquired at university to a real-world working environment.
 
-During my internship at **[Company/Organization Name]** from **[start date]** to **[end date]**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
-I participated in **[briefly describe the main project or task]**, through which I improved my skills in **[list skills: programming, analysis, reporting, communication, etc.]**.  
+I assumed the **DevOps Role** in the internship project topic, achieving several results and enhancing technical skills:
+* **System Architecture:** Built diagrams and designed basic cloud computing system architectures.
+* **Infrastructure as Code (IaC):** Researched and deployed basic infrastructure using IaC tools.
+* **Soft Skills:** Enhanced communication, teamwork, and cross-project collaboration skills with colleagues.
 
-In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
+Regarding work ethic, I always strove to accomplish assigned tasks well, adhered to company regulations, and actively communicated with peers to improve work efficiency.
 
-To objectively reflect on my internship period, I would like to evaluate myself based on the following criteria:
+---
 
-| No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
-| 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ✅    | ☐    | ☐       |
-| 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | ☐    | ✅    | ☐       |
-| 3   | **Proactiveness**                   | Taking initiative, seeking out tasks without waiting for instructions                            | ✅    | ☐    | ☐       |
-| 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | ✅    | ☐    | ☐       |
-| 5   | **Discipline**                      | Adhering to schedules, rules, and work processes                                                 | ☐    | ☐    | ✅       |
-| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ☐    | ✅    | ☐       |
-| 7   | **Communication**                   | Presenting ideas and reporting work clearly                                                      | ☐    | ✅    | ☐       |
-| 8   | **Teamwork**                        | Working effectively with colleagues and participating in teams                                   | ✅    | ☐    | ☐       |
-| 9   | **Professional conduct**            | Respecting colleagues, partners, and the work environment                                        | ✅    | ☐    | ☐       |
-| 10  | **Problem-solving skills**          | Identifying problems, proposing solutions, and showing creativity                                | ☐    | ✅    | ☐       |
-| 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team                                  | ✅    | ☐    | ☐       |
-| 12  | **Overall**                         | General evaluation of the entire internship period                                               | ✅    | ☐    | ☐       |
+### Self-evaluation Table
 
-### Needs Improvement
+To objectively reflect the internship process, I self-assess based on the criteria below:
 
-* Strengthen discipline and strictly comply with the rules and regulations of the company or any organization  
-* Improve problem-solving thinking  
-* Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively
+| No. | Criteria | Description | Good | Fair | Average |
+| :---: | :--- | :--- | :---: | :---: | :---: |
+| 1 | **Professional Knowledge & Skills** | Understanding of domain, practical application of knowledge, tool usage skills, quality of work | ✅ | ☐ | ☐ |
+| 2 | **Learning Ability** | Absorbing new knowledge, learning quickly | ✅ | ☐ | ☐ |
+| 3 | **Initiative** | Self-researching, taking on tasks without waiting for instructions | ✅ | ☐ | ☐ |
+| 4 | **Sense of Responsibility** | Completing work on schedule, ensuring quality | ✅ | ☐ | ☐ |
+| 5 | **Discipline** | Punctuality, adhering to regulations and workflows | ☐ | ✅ | ☐ |
+| 6 | **Desire to Improve** | Willingness to receive feedback and self-improve | ✅ | ☐ | ☐ |
+| 7 | **Communication** | Presenting ideas, reporting work clearly | ☐ | ✅ | ☐ |
+| 8 | **Team Collaboration** | Working effectively with colleagues, participating in team | ☐ | ✅ | ☐ |
+| 9 | **Professional Conduct** | Respecting colleagues, partners, and workplace environment | ✅ | ☐ | ☐ |
+| 10 | **Problem Solving Mindset** | Identifying issues, proposing solutions, creativity | ☐ | ✅ | ☐ |
+| 11 | **Contribution to Project/Organization** | Work effectiveness, improvement initiatives, recognition from team | ✅ | ☐ | ☐ |
+| 12 | **Overall** | General evaluation of the entire internship process | ✅ | ☐ | ☐ |
+
+---
+
+### Areas for Improvement
+
+Beside the achievements made, I recognize that I still have some limitations that require continued refinement and improvement in the future:
+
+* Further strengthen seriousness and initiative in adhering to working procedures, ensuring punctuality and general organization rules.
+* Practice articulating ideas and reporting work in a coherent, concise manner; be more flexible and tactful in daily communication and handling unexpected situations.
+* Actively engage and openly share information with team members to enhance connectivity and improve collective performance.
+* Cultivate observation skills to detect risks/issues early and proactively propose flexible, creative, and optimized solutions.

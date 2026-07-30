@@ -1,54 +1,46 @@
 ---
-title: "Week 1 Worklog"
-date: 2024-01-01
-weight: 1
+title: "Worklog Week 3"
+date: 2024-01-15
+weight: 3
 chapter: false
-pre: " <b> 1.1. </b> "
+pre: " <b> 1.3. </b> "
 ---
 
+### Goals for Week 3:
 
-### Week 1 Objectives:
+* Officially finalize group topic, complete overall architecture diagram, and detailed task assignment for team members.
+* Research Auto Scaling and Load Balancing mechanisms for EC2 virtual servers.
+* Learn object storage service Amazon S3 and NoSQL database management system Amazon DynamoDB.
+* Practice integrating S3 and DynamoDB with compute services (EC2 / AWS Lambda).
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+### Tasks to implement this week:
+| Day | Date | Tasks | Reference Materials |
+| --- | ---- | ----- | ------------------- |
+| Mon | 22/06/2026 | **Team Meeting - Choose & Finalize Topic:**<br>&emsp;+ Discuss project ideas, analyze feasibility, and agree on official topic.<br>&emsp;+ Draft overall system architecture diagram on draw.io. | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | 23/06/2026 | **Scaling with AWS EC2:**<br>&emsp;+ Learn Auto Scaling Group (ASG) and Elastic Load Balancing (ALB/NLB) mechanisms.<br>&emsp;+ AMI (Amazon Machine Image) and Launch Template concepts.<br>&emsp;+ **Hands-on practice:** Create Launch Template, set up Auto Scaling Group combined with ALB to automatically adjust EC2 instance count based on load. | <https://docs.aws.amazon.com/autoscaling/ec2/userguide/> |
+| Wed | 24/06/2026 | **Amazon S3 Storage Service:**<br>&emsp;+ Learn Bucket, Object, Storage Classes, and Lifecycle Policies concepts.<br>&emsp;+ S3 Security: S3 Bucket Policy, Block Public Access, and Access Control List (ACL).<br>&emsp;+ **Hands-on practice:** Create S3 Bucket, configure permissions, and store static files (Static Website Hosting / Media Assets). | <https://docs.aws.amazon.com/AmazonS3/latest/userguide/> |
+| Thu | 25/06/2026 | **Amazon DynamoDB NoSQL Database:**<br>&emsp;+ Table, Partition Key, Sort Key, and Secondary Indexes (GSI/LSI) concepts.<br>&emsp;+ **Hands-on practice:** Initialize DynamoDB table, perform data operations (CRUD) via AWS Management Console and AWS CLI/SDK. | <https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/> |
+| Fri | 26/06/2026 | **Integration & Weekly Wrap-up:**<br>&emsp;+ **Integration practice:** Write applications on EC2 / Lambda Functions to read/write data from DynamoDB and store files in S3.<br>&emsp;+ Test deployed services and compile Week 3 report. | <https://cloudjourney.awsstudygroup.com/> |
 
-### Tasks to be carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| -- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Results achieved in Week 3:
 
+* **Team Topic:**
+  * Agreed on team internship project topic.
+  * Drafted and completed overall system architecture diagram on *draw.io*, illustrating data flow between components.
 
-### Week 1 Achievements:
+* **Scaling & Load Balancing (EC2 Scaling):**
+  * Mastered working principles of Elastic Load Balancer (ALB) and Auto Scaling Group (ASG).
+  * Initialized Launch Template and deployed EC2 system capable of automatically scaling instance count up/down based on traffic.
+  * Configured scaling policies to balance performance and cost.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Object Storage (Amazon S3):**
+  * Understood data organization, S3 Bucket Policy security configurations, and Block Public Access.
+  * Successfully deployed S3 Bucket to store static resources and ensured safe access control.
 
-* Successfully created and configured an AWS Free Tier account.
+* **NoSQL Database (Amazon DynamoDB):**
+  * Practiced designing DynamoDB tables with appropriate Partition Key, Sort Key, and secondary indexes.
+  * Performed successful CRUD operations and connected EC2/Lambda applications to DynamoDB via AWS SDK.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Application Integration:**
+  * Successfully connected compute services with S3 and DynamoDB.
+  * Tested data read/write flow from backend to database and storage.
