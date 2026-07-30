@@ -7,26 +7,18 @@ pre: " <b> 1. </b> "
 ---
 
 
-**Tuần 1:** [Tìm hiểu chương trình FCAJ và làm quen với một số dịch vụ AWS.](1.1-week1/)
+**Tuần 1:** [Tìm hiểu chương trình FCAJ và làm quen với các dịch vụ AWS cơ bản.](1.1-week1/)
 
-**Tuần 2:** [Làm quen với AWS CloudFormation, xây dựng hạ tầng dưới dạng mã (IaC), Quản lý bảo mật IAM và AWS Lambda.](1.2-week2/)
+**Tuần 2:** [Tìm hiểu Hạ tầng dưới dạng mã (IaC), Quản lý truy cập IAM và AWS Lambda.](1.2-week2/)
 
-**Tuần 3:** [Chốt đề tài và phân chia công việc từng thành viên, tìm hiểu về EC2 Auto Scaling, dịch vụ lưu trữ dữ liệu đám mây Amazon S3 và dịch vụ quản lý NoSQL DynamoDB](1.3-week3/)
+**Tuần 3:** [Thống nhất đề tài nhóm, tìm hiểu thêm về EC2 Auto Scaling, Amazon S3 và DynamoDB](1.3-week3/)
 
-**Tuần 4:** [Làm công việc C...](1.4-week4/)
+**Tuần 4:** [Thiết kế sơ đồ kiến trúc hệ thống và phân công công việc từng thành viên, tìm hiểu về dịch vụ AWS Key Management Service (KMS)](1.4-week4/)
 
-**Tuần 5:** [Làm công việc D...](1.5-week5/)
+**Tuần 5:** [Xây dựng hạ tầng cho đề tài bằng công cụ AWS Cloudformation](1.5-week5/)
 
-**Tuần 6:** [Làm công việc E...](1.6-week6/)
+**Tuần 6:** [Báo cáo tiến độ nhóm, chỉnh sửa và thêm mới dịch vụ trong xây dựng hạ tầng, tìm hiểu và làm quen dịch vụ AWS CloudFront](1.6-week6/)
 
-**Tuần 7:** [Làm công việc G...](1.7-week7/)
+**Tuần 7:** [Kiểm thử và triển khai dự án đề tài, hoàn thiện Workshop, tìm hiểu và làm quen về dịch vụ AWS WAF](1.7-week7/)
 
-**Tuần 8:** [Làm công việc H...](1.8-week8/)
-
-**Tuần 9:** [Làm công việc I...](1.9-week9/)
-
-**Tuần 10:** [Làm công việc L...](1.10-week10/)
-
-**Tuần 11:** [Làm công việc M...](1.11-week11/)
-
-**Tuần 12:** [Làm công việc N...](1.12-week12/)
+**Tuần 8:** [Triển khai chính thức, kiểm thử tổng thể và hoàn thiện Workshop](1.8-week8/)

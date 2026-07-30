@@ -1,9 +1,18 @@
+# =======================================================
+# GENERAL / PATH FIXES
+# =======================================================
 baseURL = "https://hacvavang.github.io/fcj-workshop/"
 relativeURLs = false
 canonifyURLs = false
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
+
+# Fixes language prefix handling for site asset links across /vi/ pages
+disablePathToLower = false
+
+# Enables automatic language detection based on browser settings
+defaultContentLanguageInAutoDir = false
 
 # Change the default theme to be used when building the site with Hugo
 theme = "hugo-theme-learn"
@@ -12,22 +21,34 @@ theme = "hugo-theme-learn"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+# =======================================================
+# THEME PARAMS (hugo-theme-learn specific)
+# =======================================================
 [params]
-  # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "workshop"
-  # GitHub repo link
   editURL = ""
-  description = ""
+  description = "Internship Report"
   author = "thienlh@thienlu.com"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
+  
+  # Adds language selector in sidebar
+  disableLanguageSwitchingButton = false
+  
+  # Cleans up sidebar UI
+  disableLandingPageButton = false
+  disableSearch = false
 
+# =======================================================
+# MULTILINGUAL SETTINGS
+# =======================================================
 [languages]
   [languages.en]
     title = "Internship Report"
     weight = 1
     label = "English"
+    languageName = "English"
 
     [[languages.en.menu.shortcuts]]
       name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
@@ -45,6 +66,7 @@ theme = "hugo-theme-learn"
     title = "Báo cáo thực tập"
     weight = 2
     label = "Tiếng Việt"
+    languageName = "Tiếng Việt"
 
     [[languages.vi.menu.shortcuts]]
       name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
@@ -58,6 +80,9 @@ theme = "hugo-theme-learn"
       url = "https://www.facebook.com/groups/awsstudygroupfcj"
       weight = 20
 
+# =======================================================
+# MARKDOWN RENDERER
+# =======================================================
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

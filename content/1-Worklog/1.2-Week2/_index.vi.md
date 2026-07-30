@@ -9,7 +9,7 @@ pre: " <b> 1.2. </b> "
 ### Mục tiêu tuần 2:
 
 * Tìm hiểu về quản lý truy cập và bảo mật hệ thống thông qua AWS IAM.
-* Tìm hiểu Infrastructure as Code (IaC) và thực hành triển khai tài nguyên tự động.
+* Tìm hiểu xây dựng hạ tầng dưới dạng mã (IaC), làm quen một số công cụ xây dựng hạ tầng (AWS Cloudformation, Terrafrom) và thực hành triển khai tài nguyên tự động.
 * Tìm hiểu cơ chế hoạt động của serverless với AWS Lambda và tích hợp cơ bản.
 * 
 ### Các công việc cần triển khai trong tuần này:

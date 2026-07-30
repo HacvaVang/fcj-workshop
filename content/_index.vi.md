@@ -22,7 +22,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 01/06/2026 đến ngày 15/08/2026
 
-![Your profile picture](images/leva.gif)
+![Picture profile](/fcj-workshop/images/pfp.jpg??width=320px&height=180px)
 
 ### Nội dung báo cáo
 
