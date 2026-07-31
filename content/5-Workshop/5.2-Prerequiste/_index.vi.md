@@ -1,5 +1,5 @@
 ﻿---
-title : "Prerequisite"
+title : "Các bước chuản bị"
 date : 2024-01-01 
 weight : 2
 chapter : false

@@ -90,3 +90,5 @@ pre: " <b> 4.1. </b> "
 - Learning by doing is the shortest path to technical mastery: Completing a specific problem like URL Shortener reinforces system design and troubleshooting mindsets.
 
 #### Photos from participating in the event
+
+> The event provided a comprehensive overview of modern DevOps and data-driven mindsets. Through practical insights and the Serverless AWS project, I realized the importance of strong fundamentals, systems thinking, and a No-Blame culture. It's a huge motivation for me to keep learning by doing and growing continuously.

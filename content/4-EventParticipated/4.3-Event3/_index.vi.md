@@ -98,4 +98,4 @@ pre: " <b> 4.3. </b> "
 ![Event picture 1](/fcj-workshop/images/4-Events/event-3.1.jpg)
 ![Event picture 2](/fcj-workshop/images/4-Events/event-3.2.jpg)
 
-> Qua sự kiện này, tôi đã 
+> Qua sự kiện này, tôi đã học được giá trị thực sự không nằm ở công nghệ, mà ở khả năng giải quyết bài toán kinh doanh thực tế. Thách thức lớn nhất cũng không phải công nghệ mà là kỹ năng mềm: quản lý scope, làm việc nhóm dưới áp lực và nhanh chóng lặp đi lặp lại dựa trên phản hồi thực tế.

@@ -90,3 +90,5 @@ pre: " <b> 4.1. </b> "
 - Học qua thực hành (Learning by doing) là con đường ngắn nhất để làm chủ kỹ thuật: Việc hoàn thành một bài toán cụ thể như URL Shortener giúp củng cố tư duy thiết kế hệ thống và giải quyết sự cố.
 
 #### Một số hình ảnh khi tham gia sự kiện
+
+> Sự kiện mang đến bức tranh toàn cảnh về DevOps và tư duy dữ liệu hiện đại. Qua các chia sẻ thực chiến và dự án Serverless AWS, mình nhận ra tầm quan trọng của nền tảng vững chắc, tư duy hệ thống và văn hóa No-Blame. Đây là động lực lớn để mình tiếp tục học qua thực hành và phát triển bản thân.

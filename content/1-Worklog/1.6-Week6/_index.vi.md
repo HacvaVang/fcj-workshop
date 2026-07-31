@@ -15,11 +15,11 @@ pre: " <b> 1.6. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Ngày | Công việc | Nguồn tài liệu |
 | --- | ---- | --------- | -------------- |
-| 2 | 13/07/2026 | **Thực tập tại công ty**<br>**Báo cáo Tiến độ Nhóm:**<br>&emsp;+ Báo cáo tiến độ triển khai hạ tầng và ứng dụng với Mentor/Đơn vị thực tập.<br>&emsp;+ Ghi nhận các góp ý về kiến trúc và yêu cầu tối ưu bổ sung. | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | 13/07/2026 | **Thực tập tại công ty**<br>**Báo cáo Tiến độ Nhóm:**<br>&emsp;+ Báo cáo tiến độ triển khai hạ tầng và ứng dụng với Mentor/Đơn vị thực tập.<br>&emsp;+ Ghi nhận các góp ý về kiến trúc và yêu cầu tối ưu bổ sung. | |
 | 3 | 14/07/2026 | **Chỉnh sửa & Refactor Hạ tầng:**<br>&emsp;+ Cập nhật CloudFormation template theo phản hồi (tối ưu Security Group, tinh chỉnh tham số Auto Scaling).<br>&emsp;+ Cập nhật Change Set và kiểm thử lại hạ tầng. | <https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/> |
 | 4 | 15/07/2026 | **Tìm hiểu Amazon CloudFront (CDN):**<br>&emsp;+ Khái niệm CDN, Edge Locations, Origin, Caching Policy.<br>&emsp;+ Cơ chế bảo mật Origin Access Control (OAC) khi kết hợp CloudFront với S3. | <https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/> |
 | 5 | 16/07/2026 | **Thực hành cấu hình Amazon CloudFront:**<br>&emsp;+ Tạo CloudFront Distribution kết hợp với S3 Bucket (cho tệp tĩnh) và ALB (cho động).<br>&emsp;+ Cấu hình Origin Access Control (OAC) để chặn truy cập trực tiếp vào S3 Bucket. | <https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/> |
-| 6 | 17/07/2026 | **Kiểm thử Hiệu năng & Tổng kết:**<br>&emsp;+ Kiểm thử tốc độ tải trang trước và sau khi qua CloudFront (Latency / Bandwidth optimization).<br>&emsp;+ Bổ sung tài nguyên CloudFront vào CloudFormation template và hoàn thiện báo cáo tuần 6. | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | 17/07/2026 | **Kiểm thử Hiệu năng & Tổng kết:**<br>&emsp;+ Kiểm thử tốc độ tải trang trước và sau khi qua CloudFront (Latency / Bandwidth optimization).<br>&emsp;+ Bổ sung tài nguyên CloudFront vào CloudFormation template và hoàn thiện báo cáo tuần 6. |  |
 
 ### Kết quả đạt được tuần 6:
 
