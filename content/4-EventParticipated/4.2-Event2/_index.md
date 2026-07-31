@@ -130,6 +130,7 @@ Participating in the **AWS Cloud Architecture Challenge** was a very exciting an
 
 #### Photos at the event
 
-![Event picture 2](/fcj-workshop/images/4-Events/event-2.jpg)
+![Event picture 1](/fcj-workshop/images/4-Events/event-2.1.png)
+![Event picture 2](/fcj-workshop/images/4-Events/event-2.2.jpg)
 
 > Overall, the AWS Cloud Architecture Challenge was not only a Cloud knowledge competition but also an opportunity for students to learn, share experiences, and hone system architecture design skills on AWS. The event helped me better understand the end-to-end Cloud solution building process while motivating me to continue learning and pursuing a Solution Architecture career path.

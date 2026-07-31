@@ -97,3 +97,5 @@ pre: " <b> 4.3. </b> "
 #### Một số hình ảnh khi tham gia sự kiện
 ![Event picture 1](/fcj-workshop/images/4-Events/event-3.1.jpg)
 ![Event picture 2](/fcj-workshop/images/4-Events/event-3.2.jpg)
+
+> Qua sự kiện này, tôi đã 

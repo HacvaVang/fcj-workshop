@@ -131,6 +131,7 @@ Tham gia **AWS Cloud Architecture Challenge** là một trải nghiệm rất th
 
 #### Một số hình ảnh tại sự kiện
 
-![Event picture 2](/fcj-workshop/images/4-Events/event-2.jpg)
+![Event picture 1](/fcj-workshop/images/4-Events/event-2.1.png)
+![Event picture 2](/fcj-workshop/images/4-Events/event-2.2.jpg)
 
 > Nhìn chung, AWS Cloud Architecture Challenge không chỉ là một cuộc thi về kiến thức Cloud mà còn là cơ hội để sinh viên học hỏi, trao đổi kinh nghiệm và rèn luyện kỹ năng thiết kế kiến trúc hệ thống trên AWS. Sự kiện giúp em hiểu rõ hơn về quy trình xây dựng một giải pháp Cloud hoàn chỉnh, đồng thời tạo động lực để tiếp tục học tập và phát triển theo định hướng Solution Architecture.
